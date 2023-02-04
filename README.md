@@ -1,6 +1,7 @@
 # kaggle-gokui
 
-kaggleの極意本の読書記録を写経やらで記録していくリポジトリ.
+kaggleの極意本の読書記録を写経やらで記録していくリポジトリ.<br>
+残念ながらgpuマシンはないので、Google Colaboratory, Kaggle上で実行します...
 
 
 [Kaggleに挑む深層学習プログラミングの極意](https://amzn.asia/d/c9M1Kls)<br>
