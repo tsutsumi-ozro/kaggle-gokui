@@ -17,6 +17,7 @@ def seed_torch(seed=1485):
 
 if __name__=='__main__':
     seed_torch()
+
     digits = load_digits()
     X = digits.data
     y = digits.target
@@ -24,7 +25,7 @@ if __name__=='__main__':
     #(1797, 64) (1797, )
 
     X = torch.tensor(X, dtype=torch.float32)
-    y = torch.tensor(y, dtype=torch.float32)
+    y = torch.tensor(y, dtype=torch.int64)
 
     model = nn.Sequential(
         nn.Linear(64, 32),
