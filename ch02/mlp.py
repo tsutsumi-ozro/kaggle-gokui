@@ -58,4 +58,4 @@ if __name__=='__main__':
     plt.plot(losses)
     plt.xlabel('epoch')
     plt.ylabel('loss')
-    plt.show()
+    plt.savefig('ch02/output_ch02/fig00.png')
