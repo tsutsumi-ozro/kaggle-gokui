@@ -58,6 +58,6 @@ if __name__=='__main__':
     plt.plot(losses)
     plt.xlabel('epoch')
     plt.ylabel('loss')
-    os.makedirs('output_img/')
+    os.makedirs('output_img/', exist_ok=True)
     plt.savefig('output_img/fig00.png')
 
